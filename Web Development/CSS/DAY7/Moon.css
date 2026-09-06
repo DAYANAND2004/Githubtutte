@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:rgb(0, 8, 20);
+    overflow:hidden;
+}
+.moon{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    background: radial-gradient(
+        circle at 30% 30%,
+        rgb(255,255,255),
+        rgb(217,217,217) 60%,
+        rgb(161,161,161) 100%
+    );
+    box-shadow:
+        0 0 30px rgb(255,255,255),
+        0 0 60px rgb(217,217,217),
+        0 0 100px rgb(161,161,161);
+
+    position:relative;
+}
+

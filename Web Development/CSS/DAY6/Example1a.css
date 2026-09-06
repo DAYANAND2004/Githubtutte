@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:black;
+    color:white;
+    font-size: 40px;
+}
+.container{
+    display:grid;
+    height:700px;
+    width:700px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+.Box{
+    background-color:rgb(95, 95, 226);
+}
+.Header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color:red;
+}
+.Sidebar{
+    grid-row: 2/4;
+    grid-row-end: 4;
+    background-color:green;
+}
+.content{
+    grid-column: 2/4;
+    b
+}
+.Footer{
+    grid-column: 1/4;
+    grid-row: 4;
+    background-color:yellow;
+}
